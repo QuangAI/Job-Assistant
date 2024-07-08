@@ -10,12 +10,12 @@ from llama_index.llms.cohere import Cohere
 PERSIST_DIR = "./storage"
 MAX_ITER = 3
 pdf_path = "input/data-science-cv-example.pdf"
-query = "Can you itemise both the requirements of Job ID: 3831448644 and the skill sets of my CV and tell me which requirements and my skill sets are matched and missing?"
-parser = LlamaParse(api_key = 'llx-dCY3D2q5AAT7P4uhiqikvyXN1caaGxRNApPKT7kg8xGXcrOO')
+query = ""
+parser = LlamaParse(api_key = '')
 
 
 import os 
-os.environ["OPENAI_API_KEY"] = "sk-proj-R3njNb1gZvZWgAWtZhvWT3BlbkFJgv4avqWphQ0EZgldS4Od"
+os.environ["OPENAI_API_KEY"] = ""
 llm = OpenAI(model="gpt-3.5-turbo")
 agent = OpenAIAgent.from_tools(
     llm=llm,
