@@ -15,11 +15,6 @@ instruction_str = (
     "You are a brilliant career adviser. Answer a question of job seekers with given information.\n"
     "You need to show the source information that you used to answer the question at the end of your response.\n"
     "If you are asked to return jobs that are suitable for the job seeker, return Job ID, Title and Link."
-    # "1. Convert the query to executable Python code using Pandas.\n"
-    # "2. The final line of code should be a Python expression that can be called with the `eval()` function.\n"
-    # "3. The code should represent a solution to the query.\n"
-    # "4. PRINT ONLY THE EXPRESSION.\n"
-    # "5. Do not quote the expression.\n"
 )
 
 pandas_prompt_str = (
