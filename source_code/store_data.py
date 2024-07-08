@@ -15,7 +15,7 @@ logging.getLogger().addHandler(logging.StreamHandler(stream=sys.stdout))
 PERSIST_DIR = "./storage"
 
 import os 
-os.environ["OPENAI_API_KEY"] = "sk-proj-R3njNb1gZvZWgAWtZhvWT3BlbkFJgv4avqWphQ0EZgldS4Od"
+os.environ["OPENAI_API_KEY"] = "sk-"
 def create_vector_storage():
     # check if storage already exists
     if  os.path.exists(PERSIST_DIR):
