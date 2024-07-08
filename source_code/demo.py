@@ -9,7 +9,7 @@ from llama_index.core import (
 PERSIST_DIR = "./storage"
 # parser = LlamaParse(result_type="markdown")
 import os
-os.environ["OPENAI_API_KEY"] = "sk-proj-R3njNb1gZvZWgAWtZhvWT3BlbkFJgv4avqWphQ0EZgldS4Od"
+os.environ["OPENAI_API_KEY"] = "sk"
 def user_query(query, cv):
     # input_cv = parser.load_data(cv)
 
